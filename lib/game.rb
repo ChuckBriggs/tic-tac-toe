@@ -45,7 +45,8 @@ class Game
   end
 
   def winner?(char, arr)
-    if (char == arr[0] && char == arr[1] && char == arr[2]) ||
+    if
+       (char == arr[0] && char == arr[1] && char == arr[2]) ||
        (char == arr[3] && char == arr[4] && char == arr[5]) ||
        (char == arr[6] && char == arr[7] && char == arr[8]) ||
        (char == arr[0] && char == arr[3] && char == arr[6]) ||
@@ -64,19 +65,19 @@ class Game
     when 'a1'
       0
     when 'a2'
-      3
-    when 'a3'
-      6
-    when 'b1'
       1
+    when 'a3'
+      2
+    when 'b1'
+      3
     when 'b2'
       4
     when 'b3'
-      7
-    when 'c1'
-      2
-    when 'c2'
       5
+    when 'c1'
+      6
+    when 'c2'
+      7
     when 'c3'
       8
     else

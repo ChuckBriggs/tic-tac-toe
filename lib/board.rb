@@ -11,9 +11,9 @@ class Board
   end
 
   def self.draw(arr)
-    puts "   A   B   C \n     |   |   \n1  #{arr[0]} | #{arr[1]} | #{arr[2]} \
-        \n  ___|___|___\n     |   |   \n2  #{arr[3]} | #{arr[4]} | #{arr[5]} \
-        \n  ___|___|___\n     |   |   \n3  #{arr[6]} | #{arr[7]} | #{arr[8]} \
+    puts "   1   2   3 \n     |   |   \nA  #{arr[0]} | #{arr[1]} | #{arr[2]} \
+        \n  ___|___|___\n     |   |   \nB  #{arr[3]} | #{arr[4]} | #{arr[5]} \
+        \n  ___|___|___\n     |   |   \nC  #{arr[6]} | #{arr[7]} | #{arr[8]} \
         \n     |   |   \n\n"
   end
 
